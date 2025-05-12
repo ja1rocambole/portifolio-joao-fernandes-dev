@@ -29,20 +29,21 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Motion Primitives Pro',
+    name: 'API BlibliotecaKA',
     description:
-      'Advanced components and templates to craft beautiful websites.',
-    link: 'https://pro.motion-primitives.com/',
+      'BiblioteKA é um sistema web para gestão de biblioteca, com controle de livros, empréstimos, reservas e autenticação de usuários. Projeto estudantil desenvolvido em equipe com foco em colaboração.',
+    link: 'https://m5-t15-deployfinalproject.onrender.com/api/docs/#/',
     video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
+      'https://github.com/ja1rocambole/embed-video/raw/refs/heads/main/bibliotecaKA.mp4',
     id: 'project1',
   },
+
   {
-    name: 'Motion Primitives',
-    description: 'UI kit to make beautiful, animated interfaces.',
+    name: 'Coin Tracker',
+    description: 'Aplicação web para gestão de criptomoedas, permitindo acompanhar o patrimônio em tempo real com conversão das principais moedas digitais do mercado para real.',
     link: 'https://motion-primitives.com/',
     video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
+      'https://github.com/ja1rocambole/embed-video/raw/refs/heads/main/coin%20tracker.mp4',
     id: 'project2',
   },
 ]
@@ -50,70 +51,59 @@ export const PROJECTS: Project[] = [
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
     company: 'Reglazed Studio',
-    title: 'CEO',
-    start: '2024',
-    end: 'Present',
-    link: 'https://ibelick.com',
+    title: 'Buscando a primeira experiência',
+    start: '2022',
+    end: 'Presente',
+    link: 'https://www.linkedin.com/in/joao-fernandes-da-silva-neto/',
     id: 'work1',
   },
-  {
-    company: 'Freelance',
-    title: 'Design Engineer',
-    start: '2022',
-    end: '2024',
-    link: 'https://ibelick.com',
-    id: 'work2',
-  },
-  {
-    company: 'Freelance',
-    title: 'Front-end Developer',
-    start: '2017',
-    end: 'Present',
-    link: 'https://ibelick.com',
-    id: 'work3',
-  },
+
 ]
 
 export const BLOG_POSTS: BlogPost[] = [
+
   {
-    title: 'Exploring the Intersection of Design, AI, and Design Engineering',
-    description: 'How AI is changing the way we design',
+    title: 'Como a IA está mudando o design de interfaces',
+    description: 'Uma análise de como ferramentas inteligentes estão influenciando o UX/UI',
     link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
     uid: 'blog-1',
   },
   {
-    title: 'Why I left my job to start my own company',
-    description:
-      'A deep dive into my decision to leave my job and start my own company',
+    title: 'Como a IA está mudando o design de interfaces',
+    description: 'Uma análise de como ferramentas inteligentes estão influenciando o UX/UI',
+    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
+    uid: 'blog-1',
+  },
+  {
+    title: 'Decidi mudar de carreira: da engenharia à programação',
+    description: 'Relato pessoal sobre a transição de área e os desafios enfrentados',
     link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
     uid: 'blog-2',
   },
   {
-    title: 'What I learned from my first year of freelancing',
-    description:
-      'A look back at my first year of freelancing and what I learned',
+    title: 'Primeiro ano como freelancer: o que ninguém te conta',
+    description: 'Experiências reais sobre clientes, dinheiro e gestão de tempo',
     link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
     uid: 'blog-3',
-  },
+  }
+
+
 ]
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     label: 'Github',
-    link: 'https://github.com/ibelick',
-  },
-  {
-    label: 'Twitter',
-    link: 'https://twitter.com/ibelick',
+    link: 'https://github.com/ja1rocambole',
   },
   {
     label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/ibelick',
+    link: 'https://www.linkedin.com/in/joao-fernandes-da-silva-neto/',
   },
   {
-    label: 'Instagram',
-    link: 'https://www.instagram.com/ibelick',
+    label: 'Whatsapp',
+    link: 'https://api.whatsapp.com/send/?phone=5591987044516&text=Ol%C3%A1+Jo%C3%A3o%2C+acessei+seu+portf%C3%B3lio+e+gostaria+de+conversar+sobre+uma+oportunidade%21&type=phone_number&app_absent=0',
   },
+
 ]
 
-export const EMAIL = 'your@email.com'
+export const EMAIL = 'joaofernandes8077@gmail.com'
