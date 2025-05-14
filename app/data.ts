@@ -50,9 +50,9 @@ export const PROJECTS: Project[] = [
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
-    company: 'Reglazed Studio',
+    company: '',
     title: 'Buscando a primeira experiência',
-    start: '2022',
+    start: '',
     end: 'Presente',
     link: 'https://www.linkedin.com/in/joao-fernandes-da-silva-neto/',
     id: 'work1',
