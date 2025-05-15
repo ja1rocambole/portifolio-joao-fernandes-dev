@@ -137,7 +137,18 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            Crio soluções completas, do front-end ao back-end, utilizando tecnologias como JavaScript, TypeScript, React, Next.js, Node.js e Python. Tenho experiência com APIs seguras, interfaces responsivas e colaboração em times ágeis. Meu foco é entregar aplicações modernas, funcionais e escaláveis.
+            Crio soluções completas, do front-end ao back-end, utilizando tecnologias como 
+            <strong> JavaScript</strong>, 
+            <strong> TypeScript</strong>, 
+            <strong> React</strong>, 
+            <strong> Next.js</strong>, 
+            <strong> Node.js</strong>, 
+            <strong> Python</strong>, 
+            <strong> Django</strong>, 
+            <strong> Git</strong>, 
+            <strong> Github</strong>, 
+            <strong> Banco de dados</strong> e 
+            <strong> Docker</strong>. Tenho experiência com APIs seguras, interfaces responsivas e colaboração em times ágeis. Meu foco é entregar aplicações modernas, funcionais e escaláveis.
           </p>
         </div>
       </motion.section>
