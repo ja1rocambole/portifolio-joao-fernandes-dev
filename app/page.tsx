@@ -137,18 +137,17 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            Crio soluções completas, do front-end ao back-end, utilizando tecnologias como 
-            <strong> JavaScript</strong>, 
-            <strong> TypeScript</strong>, 
-            <strong> React</strong>, 
-            <strong> Next.js</strong>, 
-            <strong> Node.js</strong>, 
-            <strong> Python</strong>, 
-            <strong> Django</strong>, 
-            <strong> Git</strong>, 
-            <strong> Github</strong>, 
-            <strong> Banco de dados</strong> e 
-            <strong> Docker</strong>. Tenho experiência com APIs seguras, interfaces responsivas e colaboração em times ágeis. Meu foco é entregar aplicações modernas, funcionais e escaláveis.
+            Sou Desenvolvedor Full Stack com experiência em desenvolvimento web
+            moderno, atuando com <strong>React</strong>,{' '}
+            <strong>Next.js</strong>,<strong>Node.js</strong>,{' '}
+            <strong>PHP</strong>,<strong>Laravel</strong>,{' '}
+            <strong>Python</strong> e<strong> Django</strong>. Tenho vivência
+            com <strong>TDD</strong>,<strong>CI/CD</strong>,{' '}
+            <strong>Docker</strong>,<strong>PostgreSQL</strong>,{' '}
+            <strong>MySQL</strong> e<strong>REST APIs</strong>, com foco em
+            arquitetura limpa, segurança, desempenho e escalabilidade. Gosto de
+            construir soluções organizadas, evolutivas e prontas para crescer
+            com o produto.
           </p>
         </div>
       </motion.section>
@@ -158,13 +157,30 @@ export default function Personal() {
         transition={TRANSITION_SECTION}
       >
         <h3 className="mb-5 text-lg font-medium">Projetos</h3>
-        
+
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
           {PROJECTS.map((project) => (
             <div key={project.name} className="space-y-2">
-              <div className="relative rounded-2xl bg-zinc-50/40 p-1 ring-1 ring-zinc-200/50 ring-inset dark:bg-zinc-950/40 dark:ring-zinc-800/50">
-                <ProjectVideo src={project.video} />
-              </div>
+              {project.video ? (
+                <div className="relative rounded-2xl bg-zinc-50/40 p-1 ring-1 ring-zinc-200/50 ring-inset dark:bg-zinc-950/40 dark:ring-zinc-800/50">
+                  <ProjectVideo src={project.video} />
+                </div>
+              ) : (
+                <div className="relative flex aspect-video items-end overflow-hidden rounded-2xl border border-dashed border-zinc-300 bg-gradient-to-br from-zinc-100 via-white to-zinc-50 p-4 dark:border-zinc-800 dark:from-zinc-950 dark:via-zinc-900 dark:to-zinc-950">
+                  <div className="max-w-[85%] space-y-2">
+                    <p className="text-xs tracking-[0.2em] text-zinc-500 uppercase dark:text-zinc-400">
+                      Projeto sem vídeo
+                    </p>
+                    <p className="text-lg font-medium text-zinc-900 dark:text-zinc-50">
+                      {project.name}
+                    </p>
+                    <p className="text-sm text-zinc-600 dark:text-zinc-400">
+                      Repositório com foco em estrutura, evolução incremental e
+                      boas práticas de desenvolvimento.
+                    </p>
+                  </div>
+                </div>
+              )}
               <div className="px-1">
                 <a
                   className="font-base group relative inline-block font-[450] text-zinc-900 dark:text-zinc-50"
@@ -212,7 +228,7 @@ export default function Personal() {
                     </p>
                   </div>
                   <p className="text-zinc-600 dark:text-zinc-400">
-                    {job.start}  {job.end}
+                    {job.start} {job.end}
                   </p>
                 </div>
               </div>
@@ -267,8 +283,8 @@ export default function Personal() {
           Sinta-se à vontade para entrar em contato comigo em{' '}
           <a className="underline dark:text-zinc-300" href={`mailto:${EMAIL}`}>
             {EMAIL}
-          </a>
-          {' '}ou nos links abaixo
+          </a>{' '}
+          ou nos links abaixo
         </p>
         <div className="flex items-center justify-start space-x-3">
           {SOCIAL_LINKS.map((link) => (
